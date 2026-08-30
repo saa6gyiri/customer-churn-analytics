@@ -56,6 +56,8 @@ Built an interactive dashboard to visualize:
 - Churn rate by payment method
 - Monthly charges by churn status
 - Churn rate by tenure group
+https://public.tableau.com/views/CustomerChurnAnalyticsDashboard_17881225977340/CustomerChurnAnalyticsDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 
 ## Key Findings
 
@@ -66,6 +68,4 @@ Built an interactive dashboard to visualize:
 - Electronic check customers had the highest churn rate among payment methods.
 
 These findings suggest that pricing, contract commitment, customer experience, and payment preferences all contribute to customer retention. To reduce churn, the company should prioritize converting customers to longer-term contracts, improving early customer engagement, reviewing pricing strategies for premium services, and encouraging enrollment in automatic payment methods.
-
-## Dashboard
 
