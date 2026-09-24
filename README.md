@@ -1,4 +1,5 @@
-## Overview
+# 📉 Customer Churn Analysis
+## 🚀 Project Overview 
 
 An end-to-end customer churn analytics project analyzing telecommunications
 customer data to identify factors associated with customer churn and translate
@@ -8,22 +9,47 @@ The project combines Python, SQL, and Tableau to demonstrate data cleaning,
 exploratory analysis, SQL analysis, and data
 visualization.
 
-## Business Problem
-A telecommunications company wants to better understand why customers are leaving. By analyzing customer demographics, account information, service subscriptions, and billing data, the company can identify customer segments with higher churn rates and use those insights to inform customer retention strategies.
-
-## Business Objective
-
 The goal of this analysis is to understand which customer characteristics and
 service factors are associated with higher churn rates and identify areas where
 businesses could focus customer retention efforts.
 
-## Business Questions
+## ❗️ Business Problem 
+A telecommunications company wants to better understand why customers are leaving. By analyzing customer demographics, account information, service subscriptions, and billing data, the company can identify customer segments with higher churn rates and use those insights to inform customer retention strategies.
+
+## 🔎 Business Questions 
 
 1. Which contract type has the highest churn rate?
 2. Does internet service type influence churn?
 3. Which payment methods are associated with the highest churn?
 4. Are customers with higher monthly charges more likely to churn?
 5. Does customer tenure affect churn?
+
+## 📊 The Dataset
+Kaggle:  https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+It includes 7,043 customer records, and the following are important columns to understand for this analysis: 
+
+Column | Description
+|-------|------------|
+customerID | Unique customer identifier
+tenure  | Months the customer has stayed
+Contract | Customer's contract type
+InternetService | Internet service category
+PaymentMethod | Customer's payment method
+MonthlyCharges | Monthly amount billed
+TotalCharges | Total charges accumulated
+Churn | Whether the customer left
+
+## 🛠️ Tools & Technologies 
+
+| Tool / Technology | Purpose |
+|---|---|
+| Python | Data cleaning, manipulation, and exploratory data analysis |
+| Pandas | Data preprocessing, handling missing values, and data validation |
+| SQL | Querying customer data and analyzing churn across customer segments |
+| Tableau | Building interactive dashboards and visualizing key churn metrics |
+| Jupyter Notebook | Documenting and executing Python analysis |
+| Git & GitHub | Version control and project documentation |
 
 ### 1. Data Cleaning
 
@@ -62,7 +88,7 @@ Built an interactive dashboard to visualize:
 https://public.tableau.com/views/CustomerChurnAnalyticsDashboard_17881225977340/CustomerChurnAnalyticsDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 
-## Key Findings
+## 🔑 Key Findings
 
 - Month-to-month customers showed the highest churn rate.
 - Customers with shorter tenure demonstrated substantially higher churn.
