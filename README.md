@@ -8,6 +8,9 @@ The project combines Python, SQL, and Tableau to demonstrate data cleaning,
 exploratory analysis, SQL analysis, and data
 visualization.
 
+## Business Problem
+A telecommunications company wants to better understand why customers are leaving. By analyzing customer demographics, account information, service subscriptions, and billing data, the company can identify customer segments with higher churn rates and use those insights to inform customer retention strategies.
+
 ## Business Objective
 
 The goal of this analysis is to understand which customer characteristics and
@@ -27,7 +30,7 @@ businesses could focus customer retention efforts.
 Cleaned the customer dataset by:
 
 - Converting TotalCharges to a numeric data type
-- Handling blank values
+- Handling null values
 - Checking for duplicate records
 - Verifying missing values
 - Creating a cleaned dataset for analysis --> churn_cleaned.csv
